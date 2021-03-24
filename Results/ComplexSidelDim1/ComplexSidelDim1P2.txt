@@ -1,0 +1,8 @@
+Complexity: 0
+Normalized Complexity: 0
+Period: (4)
+Ordering: The only monomial ordering in F[X]
+Dimension: 1
+GF(2)
+Grobner basis:
+1
