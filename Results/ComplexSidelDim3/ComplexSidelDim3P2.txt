@@ -1,0 +1,8 @@
+Complexity: 0
+Normalized Complexity: 0
+Period: (2,2,3)
+Ordering: Graded lexicographic X > Y > Z.
+Dimension: 3
+GF(2)
+Grobner basis:
+1

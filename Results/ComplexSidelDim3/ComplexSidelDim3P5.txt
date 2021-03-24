@@ -1,0 +1,11 @@
+Complexity: 480
+Normalized Complexity: 0.8
+Period: (5,5,24)
+Ordering: Graded lexicographic X > Y > Z.
+Dimension: 3
+GF(2)
+Grobner basis:
+1 + Y^{5}
+1 + X^{5}
+1 + Y + X + Y^{2} + XY + X^{2} + Y^{3} + XY^{2} + X^{2}Y + X^{3} + Y^{4} + XY^{3} + X^{2}Y^{2} + X^{3}Y + X^{4} + XY^{4} + X^{2}Y^{3} + X^{3}Y^{2} + X^{4}Y + X^{2}Y^{4} + X^{3}Y^{3} + X^{4}Y^{2} + X^{3}Y^{4} + X^{4}Y^{3} + X^{4}Y^{4}
+1 + Z^{4} + Z^{8} + Z^{12} + Z^{16} + Z^{20}
