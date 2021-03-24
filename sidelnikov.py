@@ -40,7 +40,7 @@ sidelParser.add_argument(
 
 sidelParser.add_argument(
     "-o", "--output", help="whether the result should be redirected to file",
-    action="store_true"
+    type=str, default=False
 )
 
 sidelParser.add_argument(
@@ -61,7 +61,7 @@ if not args.generate_array:
         if args.output:
             lines.append(f"{t} {o}")
     if args.output:
-        outputFile = open("output.txt", 'w')
+        outputFile = open(f"{args.output}.txt", 'w')
 
         outputFile.write("2\n")
         outputFile.write(f"{prime_power}\n")
@@ -118,7 +118,7 @@ if args.generate_array:
             A.append(coordentry)
 
     if args.output:
-        with open("output.txt", 'w') as outputFile:
+        with open(f"{args.output}.txt", 'w') as outputFile:
             lines = []
             for tup, val in A:
                 lines.append(f"{' '.join([str(i) for i in tup])} {val}")
